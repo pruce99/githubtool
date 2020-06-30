@@ -1,0 +1,21 @@
+.none{
+    display: none;
+}
+.show{
+    display: block;
+    border: solid;
+    border-color: blue;
+    width: 12%;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.setting{
+    cursor: pointer;
+    border: dotted;
+}
+.setting:hover{
+    background-color: antiquewhite;
+}

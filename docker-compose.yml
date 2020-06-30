@@ -1,0 +1,16 @@
+version: "3"
+services:
+
+  frontend:
+        container_name: github_container
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: sample/github_container
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./react:/usr/src/app
+        command: npm start
+        tty: true
+        
